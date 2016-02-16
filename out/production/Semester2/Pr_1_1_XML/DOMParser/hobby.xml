@@ -1,0 +1,18 @@
+<?xml version = "1.0"?>
+<hobbies>
+    <hobby number = "1">
+        <name>programming</name>
+        <status>new</status>
+        <duration>5 months</duration>
+    </hobby>
+    <hobby number = "2">
+        <name>reading</name>
+        <status>old</status>
+        <duration>26 years</duration>
+    </hobby>
+    <hobby number = "3">
+        <name>watching movies</name>
+        <status>old</status>
+        <duration>16 years</duration>
+    </hobby>
+</hobbies>
