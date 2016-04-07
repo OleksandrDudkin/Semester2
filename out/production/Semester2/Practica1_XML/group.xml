@@ -1,0 +1,34 @@
+<?xml version = "1.0"?>
+<!DOCTYPE group SYSTEM "group.dtd">
+<!-- если сразу подключить файл dtd, то подсветяться красным все отклонения -->
+
+<group>
+    <student firstname="Ivan" lastname="Ivanchenko" groupnumber="A-1">
+        <subject title="Math" mark="5"/>
+        <subject title="Chemistry" mark="4"/>
+        <subject title="Physics" mark="3"/>
+        <subject title="Geometry" mark="4"/>
+        <average>4.0</average>
+    </student>
+    <student firstname="Petr" lastname="Petrenko" groupnumber="A-1">
+        <subject title="Math" mark="3"/>
+        <subject title="Chemistry" mark="3"/>
+        <subject title="Physics" mark="3"/>
+        <subject title="Geometry" mark="4"/>
+        <average>7.5</average>
+    </student>
+    <student firstname="Mykola" lastname="Mykolayenko" groupnumber="A-1">
+        <subject title="Math" mark="5"/>
+        <subject title="Chemistry" mark="3"/>
+        <subject title="Physics" mark="5"/>
+        <subject title="Geometry" mark="5"/>
+        <average>4.75</average>
+    </student>
+    <student firstname="Sydor" lastname="Sydorenko" groupnumber="A-1">
+        <subject title="Math" mark="5"/>
+        <subject title="Chemistry" mark="4"/>
+        <subject title="Physics" mark="3"/>
+        <subject title="Geometry" mark="5"/>
+        <average>7</average>
+    </student>
+</group>

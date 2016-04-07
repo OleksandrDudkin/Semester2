@@ -24,7 +24,7 @@ public class Text {
 
         //все операции в блоке try
         try {
-            File inputFile = new File(".\\src\\Pr_1_1_XML\\input.txt");
+            File inputFile = new File(".\\src\\Pr_1_1_XML\\input.xml");
 
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();// создаем фабрику дом-парсера
             DocumentBuilder dbBuilder = dbFactory.newDocumentBuilder(); // создаем билдера для построения ДОМ-документа

@@ -1,0 +1,18 @@
+<?xml version = "1.0"?>
+<students>
+    <student id = "1">
+        <name>Ivan</name>
+        <group>A-1</group>
+        <enrollmentDate>1.08.2000</enrollmentDate>
+    </student>
+    <student id = "2">
+        <name>Petr</name>
+        <group>B-1</group>
+        <enrollmentDate>1.08.2002</enrollmentDate>
+    </student>
+        <student id = "3">
+            <name>Ivan</name>
+            <group>Ivanov</group>
+            <enrollmentDate>1.08.2004</enrollmentDate>
+        </student>
+</students>

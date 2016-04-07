@@ -1,0 +1,13 @@
+<!-- <!ELEMENT название элемента (что может содержать)> корневой элемент group содержит элементы student
+* — ноль или много. ? – ноль или один. + — один или много. если знак не указан, то элемент только один -->
+
+<!ELEMENT group (student*)>
+<!ELEMENT student (subject*,average?)>      <!-- элемент student cодержит ноль или больше предметов, ноль или одну запись о среднем балле -->
+<!ATTLIST student firstname CDATA #REQUIRED lastname CDATA #REQUIRED groupnumber CDATA #REQUIRED>
+                <!-- перечисляются аттрибуты student -->
+                <!-- CDATA указывает, что разбирать содержимое атрибутов не нужно  -->
+                <!-- #REQUIRED - элемент обязательный -->
+
+<!ELEMENT subject EMPTY>            <!-- элемент subject должен быть пустым(содержит только атрибуты)   -->
+<!ATTLIST subject title CDATA #REQUIRED mark (1|2|3|4|5) #REQUIRED>  <!-- в скобках перечисляем обязательные значения атрибута mark.  -->
+<!ELEMENT average (#PCDATA)>        <!-- #PCDATA - анализатор обязан разбирать содержимое элемента  -->

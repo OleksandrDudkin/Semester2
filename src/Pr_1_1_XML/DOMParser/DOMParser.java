@@ -14,6 +14,8 @@ import java.io.IOException;
  * Created by Oleksandr Dudkin on 04.02.2016.
  */
 public class DOMParser {
+    private static String PATH = ".\\src\\Pr_1_1_XML\\DOMParser\\hobby.xml";
+    private static Document doc = null;
 
     public static Document parse(String fileName) throws ParserConfigurationException, IOException, SAXException {
         //возвращем ДОМ-документ с данными из файла
@@ -21,7 +23,7 @@ public class DOMParser {
     }
 
     public static void main(String[] args) throws IOException, SAXException, ParserConfigurationException {
-        Document doc = parse(".\\src\\Pr_1_1_XML\\DOMParser\\hobby.xml");
+        Document doc = parse(PATH);
         NodeList items = doc.getDocumentElement().getChildNodes(); //достаем корневой элемент, а от него все дочерние
 
         for (int i = 0; i < items.getLength(); i++) {

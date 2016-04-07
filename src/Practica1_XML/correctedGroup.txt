@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- если сразу подключить файл dtd, то подсветяться красным все отклонения --><group>
+    <student firstname="Ivan" groupnumber="A-1" lastname="Ivanchenko">
+        <subject mark="5" title="Math"/>
+        <subject mark="4" title="Chemistry"/>
+        <subject mark="3" title="Physics"/>
+        <subject mark="4" title="Geometry"/>
+        <average>4.0</average>
+    </student>
+    <student firstname="Petr" groupnumber="A-1" lastname="Petrenko">
+        <subject mark="3" title="Math"/>
+        <subject mark="3" title="Chemistry"/>
+        <subject mark="3" title="Physics"/>
+        <subject mark="4" title="Geometry"/>
+        <average>3.25</average>
+    </student>
+    <student firstname="Mykola" groupnumber="A-1" lastname="Mykolayenko">
+        <subject mark="5" title="Math"/>
+        <subject mark="3" title="Chemistry"/>
+        <subject mark="5" title="Physics"/>
+        <subject mark="5" title="Geometry"/>
+        <average>4.5</average>
+    </student>
+    <student firstname="Sydor" groupnumber="A-1" lastname="Sydorenko">
+        <subject mark="5" title="Math"/>
+        <subject mark="4" title="Chemistry"/>
+        <subject mark="3" title="Physics"/>
+        <subject mark="5" title="Geometry"/>
+        <average>4.25</average>
+    </student>
+</group>

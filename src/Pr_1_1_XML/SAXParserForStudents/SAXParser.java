@@ -1,4 +1,4 @@
-package Pr_1_1_XML.SAXParser;
+package Pr_1_1_XML.SAXParserForStudents;
 
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -13,7 +13,7 @@ import java.io.IOException;
 public class SAXParser {
 
     public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
-        SAXParser saxParser = new SAXParser(); //создаем экзмепляр класса
+        SAXParser saxParser = new SAXParser(); //создаем экземпляр класса
         saxParser.process(); //запускаем метод process()
     }
 
@@ -23,7 +23,7 @@ public class SAXParser {
         factory.setNamespaceAware(true); // parser produced by this code will provide support for XML-namespaces
         javax.xml.parsers.SAXParser parser = factory.newSAXParser(); //создаем объект parser
 
-        FileInputStream fis = new FileInputStream(new File(".\\src\\Pr_1_1_XML\\SAXParser\\hobby.xml")); //создаем fis
+        FileInputStream fis = new FileInputStream(new File(".\\src\\Practica1_XML\\input.xml")); //создаем fis
         InputSource source = new InputSource(fis); // создаем объект source, куда помещаем fis
 
         XMLReader xmlReader = parser.getXMLReader(); // из парсера создаем объект xmlReader
